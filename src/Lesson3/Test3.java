@@ -6,7 +6,6 @@ public class Test3 {
         int b  =a * 2;
 
         int x=1, y=2, z=3;
-        int x=1, y=2, z=3;
-        int y = 1;
+        boolean d = true;
     }
 }
