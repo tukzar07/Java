@@ -7,5 +7,6 @@ public class Test3 {
 
         int x=1, y=2, z=3;
         int x=1, y=2, z=3;
+        int y = 1;
     }
 }
