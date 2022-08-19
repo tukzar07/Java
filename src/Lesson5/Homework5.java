@@ -1,6 +1,6 @@
-package Lesson4;
+package Lesson5;
 
-public class BankAccount {
+public class Homework5 {
     int id = 1;
     String name;
     double balance;
@@ -19,18 +19,19 @@ public class BankAccount {
 
 class BankAccountTest{
     public static void main(String[] args) {
-        BankAccount MyAccount = new BankAccount();
+        Homework5 MyAccount = new Homework5();
         MyAccount.id = 1;
         MyAccount.name = "Виталий";
         MyAccount.balance = 98.56;
         MyAccount.snyatieSoScheta(43.50);
+        MyAccount.popolnennieScheta(100);
 
-        BankAccount YourAccount = new BankAccount();
+        Homework5 YourAccount = new Homework5();
         YourAccount.id = 2;
         YourAccount.name = "Петя";
         YourAccount.balance = 8.4;
 
-        BankAccount HisAccount = new BankAccount();
+        Homework5 HisAccount = new Homework5();
         HisAccount.id = 3;
         HisAccount.name = "Серёга";
         HisAccount.balance = 18.28;
