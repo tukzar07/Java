@@ -8,6 +8,10 @@ class Student {
     float SrMath;
     float SrEcon;
     float SrLang;
+    float srednee() {
+        float result = (SrMath + SrEcon + SrLang)/3f;
+         return result;
+    }
 
 
 }
@@ -25,7 +29,7 @@ class StudentTest{
         FirstSt.SrMath = 4.3f;
         FirstSt.SrEcon = 3.7f;
         FirstSt.SrLang = 4.1f;
-        System.out.println("Имя: " + FirstSt.FirstName + ". Фамилия: " + FirstSt.LastName + ". Средняя оценка: " + (FirstSt.SrMath+FirstSt.SrEcon+FirstSt.SrLang)/3f);
+        System.out.println("Имя: " + FirstSt.FirstName + ". Фамилия: " + FirstSt.LastName + ". Средняя оценка: " + FirstSt.srednee());
 
         Student SecondSt = new Student();
         SecondSt.StudBil = 201;
@@ -35,7 +39,7 @@ class StudentTest{
         SecondSt.SrMath = 3.3f;
         SecondSt.SrEcon = 4.7f;
         SecondSt.SrLang = 3.1f;
-        System.out.println("Имя: " + SecondSt.FirstName + ". Фамилия: " + SecondSt.LastName + ". Средняя оценка: " + (SecondSt.SrMath+SecondSt.SrEcon+SecondSt.SrLang)/3f);
+        System.out.println("Имя: " + SecondSt.FirstName + ". Фамилия: " + SecondSt.LastName + ". Средняя оценка: " + SecondSt.srednee());
 
 
         Student ThirdSt = new Student();
@@ -46,7 +50,7 @@ class StudentTest{
         ThirdSt.SrMath = 3.8f;
         ThirdSt.SrEcon = 4.3f;
         ThirdSt.SrLang = 3.6f;
-        System.out.println("Имя: " + ThirdSt.FirstName + ". Фамилия: " + ThirdSt.LastName + ". Средняя оценка: " + (ThirdSt.SrMath+ThirdSt.SrEcon+ThirdSt.SrLang)/3f);
+        System.out.println("Имя: " + ThirdSt.FirstName + ". Фамилия: " + ThirdSt.LastName + ". Средняя оценка: " + ThirdSt.srednee());
 
     }
 
